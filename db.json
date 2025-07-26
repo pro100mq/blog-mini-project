@@ -1,0 +1,92 @@
+{
+    "blog": [
+        {
+            "id": "1",
+            "title": "Краєвид",
+            "description": "Фото природи",
+            "imageURL": "https://content.rozetka.com.ua/goods/images/big/17813412.jpg"
+        },
+        {
+            "id": "2",
+            "title": "Озеро",
+            "description": "Дуже гарне озеро",
+            "imageURL": "https://vandrivka.com.ua/wp-content/uploads/2017/08/Ozero-Vidro-Kiyiv-9.jpg"
+            
+        },
+        {
+            "id": "3",
+            "title": "Гори",
+            "description": "Гори",
+            "imageURL": "https://media.dyvys.info/2017/05/mountains-1366x768-006.jpg"
+        },
+        {
+            "id": "4",
+            "title": "Хмари",
+            "description": "Хмари",
+            "imageURL": "https://purple-cdn.web-apps-prod.wo-cloud.com/purple/0f7a645f-e3c1-4a9c-a6dd-ccfa5dff68a7/ccaeda65-166e-49c6-bbcd-ece973f0339c/0ca5a023-4ce7-4c6e-b4b8-5f299cca239e/e5941ca0-465f-48b7-818f-a42eb1c39969.jpg"
+        },
+        {
+            "id": "5",
+            "title": "Нічне фото",
+            "description": "Все видно",
+            "imageURL": "https://i.photographers.ua/images/pictures/37255/0_5_dsc_3837.jpg"
+        }
+    ],
+    "comments": [
+        {
+            "id": "1",
+            "postId": "1",
+            "text": "Яка краса!"
+        },
+        {
+            "id": "2",
+            "postId": "1",
+            "text": "Неймовірно"
+        },
+        {
+            "id": "3",
+            "postId": "1",
+            "text": "Дуже гарно"
+        },
+        {
+            "id": "4",
+            "postId": "2",
+            "text": "Яка чиста водичка"
+        },
+        {
+            "id": "5",
+            "postId": "2",
+            "text": "Неперевершено!!"
+        },
+        {
+            "id": "6",
+            "postId": "2",
+            "text": "Які гарні рибки"
+        },
+        {
+            "id": "7",
+            "postId": "3",
+            "text": "Я теж хочу в гори((("
+        },
+        {
+            "id": "8",
+            "postId": "3",
+            "text": "Яка ж краса"
+        },
+        {
+            "id": "9",
+            "postId": "4",
+            "text": "Які білі хмари!!! так гарно"
+        },
+        {
+            "id": "10",
+            "postId": "4",
+            "text": "дуже гарно"
+        },
+        {
+            "id": "11",
+            "postId": "5",
+            "text": "Так гарно"
+        }
+    ]
+}
