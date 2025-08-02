@@ -1,13 +1,17 @@
-export async function addPost(post) {
+const API_BASE = 'http://localhost:3000';
+
+export async function addPost(postData) {
   try {
-    return await fetch("http://localhost:3000/blog", {
-        method: "POST",
-        body: JSON.stringify(post),
-        headers: {
-        "Content-Type": "application/json; charset=UTF-8",
-        }
+    return await fetch(`${API_BASE}/blog`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        ...postData
+      })
     }).then((res) => res.json())
   } catch (error) {
-    console.log(error)
-}
+    console.log(error);
+  }
 }

@@ -1,9 +1,11 @@
-export async function deletePost(id){
+const API_BASE = 'http://localhost:3000';
+
+export async function deletePost(id) {
   try {
-    return await fetch(`http://localhost:3000/blog/${id}`, {
-        method: "DELETE",
+    return await fetch(`${API_BASE}/blog/${id}`, {
+      method: 'DELETE'
     });
   } catch (error) {
-    console.log(error)
+    console.log(error);
   }
-};
+}

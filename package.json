@@ -24,7 +24,8 @@
   "devDependencies": {
     "parcel": "^2.15.4",
     "parcel-reporter-clean-dist": "^1.0.4",
-    "parcel-transformer-hbs": "^1.0.4"
+    "parcel-transformer-hbs": "^1.0.4",
+    "posthtml-include": "^2.0.1"
   },
   "dependencies": {
     "gh-pages": "^6.3.0",

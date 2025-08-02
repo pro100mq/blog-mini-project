@@ -4,14 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Блог</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <h1>Блог</h1>
-    <form id="createPostForm">
-        <input type="text" id="titleInput" placeholder="Заголовок" required>
-        <textarea id="contentInput" placeholder="Зміст" required></textarea>
-        <button type="submit">Створити пост</button>
-    </form>
-    <div id="postsContainer"></div>
+    <div class="container">
+        <h1>Мій Блог</h1>
+        <button id="openModalBtn" class="create-post-btn">Створити новий пост</button>
+
+        <ul id="postsContainer" class="posts-list">
+
+        </ul>
+    </div>
+
+    <div class="modal-backdrop" id="modalBackdrop">
+        <div class="modal" id="modalEdit">
+            <div class="modal-content">
+                <h2 id="modalTitle">Створити пост</h2>
+                <form id="postForm" class="modal-form">
+                    <input type="text" id="usernameInput" placeholder="Ваш Нікнейм" required>
+                    <input type="text" id="postTitleInput" placeholder="Заголовок поста" required>
+                    <input id="postContentInput" placeholder="Введіть зміст поста" required></input>
+                    <input type="url" id="photoURLInput" placeholder="Введіть URL фото">
+                    <div class="modal-buttons">
+                        <button type="submit" class="modal-submit-btn">Зберегти</button>
+                        <button type="button" class="modal-cancel-btn">Відмінити</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="./index.js" type="module"></script>
 </body>
 </html>
